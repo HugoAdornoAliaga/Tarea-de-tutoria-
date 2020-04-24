@@ -1,0 +1,155 @@
+22.
+#include “stdfx.h”
+#include “coinio.h” 
+#include <iostream>
+
+Using namespace std;
+
+Int main()
+{ int i;
+
+for (i=1; i>=1; i++)
+{
+	cout<<i<<endl;
+}
+getch ();
+return 0;
+}
+
+23. 
+#include “stdfx.h”
+#include “coinio.h” 
+#include <iostream>
+
+Using namespace std;
+
+Int main()
+{ int numero;
+do{
+	cout<<”digite un numero:”;
+}while ((numeor<1) ll (numero>10));
+for (int i=1; i<=20;i++){
+cout<<numero<<” * “ <<i<<” = ”<<numeor*i<<endl;
+}
+return 0;
+}
+
+24. 
+#include “stdfx.h”
+#include “coinio.h” 
+#include <iostream>
+
+Using namespace std;
+
+Int main()
+{ int suma=0, cuadrado;
+for (int i=1; i<=10;i++){
+cuadrado=i*i;
+suma = suma+cuadrado;
+}
+Cout<<”el resultado es :”<<suma;
+getch();
+return 0;
+}
+
+
+
+
+
+25. 
+
+#include “stdfx.h”
+#include “coinio.h” 
+#include <iostream>
+
+Using namespace std;
+
+Int main()
+{ int numero, sum=0;
+do{
+	cout<<”digite un numeor: ”; 
+	cin>>numero;
+ if(numero>0){
+suma += numero;
+}
+} while (((numero<20) ll (numero>30)&&(numero!=0));
+  cout<< “/n la suma es: “<<suma<<endl;
+ system (“pause”);
+return 0;
+}
+
+26.
+
+#include “stdfx.h”
+#include “coinio.h” 
+#include <iostream>
+
+Using namespace std;
+
+Int main()
+{ int n, suma=0;
+cout<<”digite el numero de elementos: ”;
+cin>>n;
+for (int i=1; i<=n;i++){
+suma = suma+n;
+}
+Cout<<”el resultado es :”<<suma;
+getch();
+return 0;
+}
+
+27.
+#include “stdfx.h”
+#include “coinio.h” 
+#include <iostream>
+
+Using namespace std;
+
+Int main()
+{ int n, fact=1;
+cout<<”digite el numero: ”;
+cin>>n;
+for (int i=1; i<=n;i++){
+fact = fact*i;
+}
+Cout<<”el resultado es :”<<fact<<endl;
+getch();
+return 0;
+}
+
+28. 
+#include “stdfx.h”
+#include “coinio.h” 
+#include <iostream>
+
+Using namespace std;
+
+Int main()
+{ int  suma=0, elev=0,n;
+cout<<”digite el numero de elementos: ”;
+cin>>n;
+ for(int i=1;i<=n;i++){
+elevación= pow(2,i);
+suma = suma+elev;
+}
+return 0;
+}
+
+29.
+#include “stdfx.h”
+#include “coinio.h” 
+#include <iostream>
+
+Using namespace std;
+
+Int main()
+{ int n, x=0, y=1, z=1;
+ cout<<”digite el numero de elementos: ”; cin>>n;
+cout<<”1”;
+for(int i=1;i<=n;i++){
+z=x+y;
+cout<<z<<” “;
+x=y;
+y=z;
+}
+return 0;
